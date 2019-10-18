@@ -1,0 +1,16 @@
+---
+exportVersion: "1"
+exportId: "8a768f206d74544c016dcfe15fa11b2a"
+name: "Integrated API Authentication Demo"
+runtime: "python"
+entrypoint: "handler"
+description: "Demonstrates ABX's ability to automatically authenticate with vRAC APIs"
+timeoutSeconds: 180
+deploymentTimeoutSeconds: 600
+dependencies: "pprint"
+actionType: "SCRIPT"
+configuration:
+  const-providers:
+  - ""
+  const_azure-system_managed_identity: false
+memoryInMB: 150
