@@ -1,0 +1,17 @@
+---
+exportVersion: "1"
+exportId: "8a7480a36e28eff2016e4e20c4a60019"
+name: "Integrated API Authentication"
+runtime: "python"
+entrypoint: "handler"
+timeoutSeconds: 180
+deploymentTimeoutSeconds: 600
+dependencies: "pprint\nrequests"
+actionType: "SCRIPT"
+configuration:
+  const-providers:
+  - ""
+  const_azure-system_managed_identity: false
+actionTemplateName: "Custom script"
+actionTemplateNamespace: "com.vmware.automation.abx"
+memoryInMB: 150
