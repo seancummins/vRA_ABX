@@ -1,0 +1,16 @@
+---
+exportVersion: "1"
+exportId: "8a7480a36e28eff2016e4e28393c0025"
+name: "Print Property Bundle"
+runtime: "python"
+entrypoint: "handler"
+timeoutSeconds: 180
+deploymentTimeoutSeconds: 600
+actionType: "SCRIPT"
+configuration:
+  const-providers:
+  - ""
+  const_azure-system_managed_identity: false
+actionTemplateName: "Custom script"
+actionTemplateNamespace: "com.vmware.automation.abx"
+memoryInMB: 150
