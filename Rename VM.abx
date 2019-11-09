@@ -1,6 +1,6 @@
 ---
 exportVersion: "1"
-exportId: "8a76a3da6d745477016db72481b956a2"
+exportId: "8a7480a36e28eff2016e4e29d5aa0027"
 name: "Rename VM"
 runtime: "python"
 entrypoint: "handler"
@@ -11,4 +11,6 @@ configuration:
   const-providers:
   - ""
   const_azure-system_managed_identity: false
+actionTemplateName: "Custom script"
+actionTemplateNamespace: "com.vmware.automation.abx"
 memoryInMB: 150
